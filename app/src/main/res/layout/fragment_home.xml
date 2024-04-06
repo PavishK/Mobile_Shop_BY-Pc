@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1C2C7"
+    tools:context=".home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_marginLeft="2dp"
+            android:drawableEnd="@drawable/ic_mic"
+            android:drawableStart="@drawable/ic_search"
+            android:layout_width="295dp"
+            android:layout_height="50dp"
+            android:background="@drawable/input_field"
+            android:ems="10"
+            android:inputType="text"
+            android:textColorHint="#424243"
+            android:hint="Asus rog 5 pro"/>
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="2dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_search"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_search"
+            android:text="search"
+            android:textColor="#D8FFFFFF"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#C1C2C7"
+        android:overScrollMode="never"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/rog8" />
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/mobile_google" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <HorizontalScrollView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/round_corner"
+                        android:textColor="#C1C2C7"
+                        android:drawableTop="@drawable/mobile_row"
+                        android:text="android" />
+
+                    <Button
+                        android:id="@+id/button55"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/round_corner"
+                        android:textColor="#C1C2C7"
+                        android:drawableTop="@drawable/iphone_row"
+                        android:text="iphone" />
+
+                    <Button
+                        android:id="@+id/button47"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/round_corner"
+                        android:textColor="#C1C2C7"
+                        android:drawableTop="@drawable/tablet_row"
+                        android:text="Tablet" />
+
+                    <Button
+                        android:id="@+id/button44"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/round_corner"
+                        android:textColor="#C1C2C7"
+                        android:drawableTop="@drawable/headphone_row"
+                        android:text="Headphone" />
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="16dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="332dp"
+                            android:layout_height="47dp"
+                            android:drawableEnd="@drawable/baseline_android_24"
+                            android:text=" Top Choose Android "
+                            android:textColor="#424243"
+                            android:textSize="26dp"/>
+
+                        <ImageView
+                            android:id="@+id/imageView19"
+                            android:layout_marginTop="-20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/top_android1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="-25dp"
+                            android:layout_height="50dp"
+                            android:text=" realme 12 Pro 5G"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:layout_width="330dp"
+                            android:id="@+id/buttonOrder1"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="25dp"
+                            android:background="@drawable/custom_button"
+                            android:text="place order"
+                            android:textColor="#C1C2C7"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginHorizontal="16dp"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="332dp"
+                            android:layout_height="47dp"
+                            android:drawableEnd="@drawable/apple"
+                            android:text=" Top Choose Iphone "
+                            android:textColor="#424243"
+                            android:textSize="26dp"/>
+
+                        <ImageView
+                            android:layout_marginTop="40dp"
+                            android:id="@+id/imageView1919"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/iphone_1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_marginTop="30dp"
+                            android:layout_height="50dp"
+                            android:text=" iphone 15 Ultra"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"
+                            android:textStyle="bold"/>
+
+                        <Button
+                            android:layout_width="330dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="25dp"
+                            android:id="@+id/button23"
+                            android:background="@drawable/custom_button"
+                            android:text="Coming Soon.."
+                            android:textColor="#C1C2C7"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</FrameLayout>

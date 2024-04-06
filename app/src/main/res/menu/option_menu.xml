@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:title="Top"
+    android:id="@+id/top"
+    android:icon="@drawable/review"
+    app:showAsAction="ifRoom"
+    />
+    <item
+        android:title="Medium"
+        android:id="@+id/medium"/>
+    <item
+        android:title="Average"
+        android:id="@+id/average"/>
+    <item
+        android:title="Bad"
+        android:id="@+id/bad"/>
+    <item
+        android:title="Exit"
+        android:id="@+id/exit">
+        <menu>
+            <item
+                android:title="Home"
+                android:id="@+id/home"/>
+            <item
+                android:title="Log Out ->"
+                android:id="@+id/logout"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C1C2C7"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp">
+
+
+        <Button
+            android:id="@+id/button"
+            android:background="@drawable/round_corner"
+            android:drawableTop="@drawable/home_use"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textColor="#95959A"
+            android:layout_marginTop="6dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:drawableTop="@drawable/ic_categories"
+            android:layout_width="wrap_content"
+            android:background="@drawable/round_corner"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Category"
+            android:textColor="#95959A"
+            android:layout_marginTop="6dp"/>
+        <Button
+            android:id="@+id/button2"
+            android:background="@drawable/round_corner"
+            android:drawableTop="@drawable/review"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Review"
+            android:textColor="#95959A"
+            android:layout_marginTop="6dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="805dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView"
+            android:name="com.firstapp.mobile_shop.home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_home" />
+    </LinearLayout>
+</LinearLayout>

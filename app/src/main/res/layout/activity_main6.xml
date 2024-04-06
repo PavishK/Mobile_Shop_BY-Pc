@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C1C2C7"
+    tools:context=".MainActivity6">
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"
+        android:text="    CALCULATOR"
+        android:textColor="#424243"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/number1"
+                android:background="@drawable/input_field"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:hint="  Enter Value One"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/number2"
+                android:layout_marginTop="30dp"
+                android:layout_width="330dp"
+                android:layout_height="50dp"
+                android:hint="  Enter Value Two"
+                android:background="@drawable/input_field"
+                android:inputType="numberDecimal" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="35dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+
+
+                    <Button
+                        android:id="@+id/addButton"
+                        android:layout_width="100dp"
+                        android:layout_height="58dp"
+                        android:textStyle="bold"
+                        android:background="@drawable/custom_button"
+                        android:textColor="#C1C2C7"
+                        android:textSize="25dp"
+                        android:layout_weight="1"
+                        android:text="+" />
+
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:background="@drawable/custom_button"
+                        android:id="@+id/subtractButton"
+                        android:textColor="#C1C2C7"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:layout_width="100dp"
+                        android:layout_height="58dp"
+                        android:layout_weight="1"
+                        android:text="-" />
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="25dp">
+
+                    <Button
+                        android:id="@+id/multiplyButton"
+                        android:textColor="#C1C2C7"
+                        android:textStyle="bold"
+                        android:background="@drawable/custom_button"
+                        android:textSize="25dp"
+                        android:layout_width="100dp"
+                        android:layout_height="58dp"
+                        android:layout_weight="1"
+                        android:text="x" />
+
+                    <Button
+                        android:layout_marginLeft="20dp"
+                        android:textColor="#C1C2C7"
+                        android:background="@drawable/custom_button"
+                        android:textStyle="bold"
+                        android:textSize="25dp"
+                        android:id="@+id/divideButton"
+                        android:layout_width="100dp"
+                        android:layout_height="58dp"
+                        android:layout_weight="1"
+                        android:text="/" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/result"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:gravity="center"
+            android:text="RESULT"
+            android:textColor="#424243"
+            android:textStyle="bold"
+            android:textSize="44sp" />
+    </LinearLayout>
+
+</LinearLayout>

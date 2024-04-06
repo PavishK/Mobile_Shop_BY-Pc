@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".reviews">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="125dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button66"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/review_custom"
+                android:textColor="#C1C2C7"
+                android:text="Android"
+                android:drawableRight="@drawable/mobile_row"/>
+
+            <Button
+                android:id="@+id/button65"
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/review_custom"
+                android:textColor="#C1C2C7"
+                android:text="Iphone"
+                android:drawableRight="@drawable/iphone_row"/>
+            <Button
+                android:id="@+id/button84"
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/review_custom"
+                android:textColor="#C1C2C7"
+                android:drawableEnd="@drawable/tablet_row"
+                android:text="Tab" />
+            <Button
+                android:id="@+id/button32"
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/review_custom"
+                android:textColor="#C1C2C7"
+                android:text="News" />
+            <Button
+                android:id="@+id/button56"
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/review_custom"
+                android:textColor="#C1C2C7"
+                android:text="Trends" />
+            <Button
+                android:id="@+id/button60"
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/review_custom"
+                android:textColor="#C1C2C7"
+                android:text="Worth 💯" />
+            <Button
+                android:id="@+id/button62"
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/review_custom"
+                android:textColor="#C1C2C7"
+                android:text="gamers" />
+            <Button
+                android:id="@+id/button44"
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/review_custom"
+                android:textColor="#C1C2C7"
+                android:text="Performance" />
+            <Button
+                android:id="@+id/button04"
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@drawable/review_custom"
+                android:textColor="#C1C2C7"
+                android:text="design" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
